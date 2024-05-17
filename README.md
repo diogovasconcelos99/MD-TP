@@ -7,6 +7,17 @@ pg54708 Sérgio Manuel da Costa Ribeiro
 
 ---
 
+Para preparar a base de dados vetorial, seguir os seguinte passos:
+
+1. Correr o script 'dataset-preprocessing.py'
+
+2. Correr o script 'csv-utf8-converter(.*).py'
+
+3. Correr o script 'vectorize-data.py'
+
+> Nota: Estes scripts podem ser lentos.
+
+
 Para correr a aplicação, utilizar o comando:
 
 > streamlit run {pathfile}\app.py
