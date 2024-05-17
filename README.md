@@ -9,4 +9,4 @@ pg54708 Sérgio Manuel da Costa Ribeiro
 
 Para correr a aplicação, utilizar o comando:
 
-> streamlit run -m {pathfile}\app.py
+> streamlit run {pathfile}\app.py
