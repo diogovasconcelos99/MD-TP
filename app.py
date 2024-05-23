@@ -11,7 +11,7 @@ API_KEY = "sk-proj-U3Wjl3TJlJUTnl4xgYagT3BlbkFJZeX8P7ySPzbb2UdZHf9s"
 # Create LLM using Langchain
 llm = OpenAI(
     api_key=API_KEY,
-    max_tokens=200,
+    max_tokens=500,
     temperature=0
 )
 
@@ -37,9 +37,9 @@ chain = RetrievalQA.from_chain_type(
 # Setup the app title
 st.title('Ask UberEatsGPT')
 
-test_query = "Sample query to test vector store"
-results = vector_store.similarity_search(test_query)
-st.write("Retrieved documents:", results)
+# test_query = "Sample query to test vector store"
+# results = vector_store.similarity_search(test_query)
+# st.write("Retrieved documents:", results)
 
 # Setup state session to display all messages
 if 'messages' not in st.session_state:
