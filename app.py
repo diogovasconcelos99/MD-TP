@@ -6,7 +6,7 @@ from langchain_openai import OpenAI, OpenAIEmbeddings
 
 
 # Get OpenAI API key
-API_KEY = "sk-proj-U3Wjl3TJlJUTnl4xgYagT3BlbkFJZeX8P7ySPzbb2UdZHf9s"
+API_KEY = None
 
 # Create LLM using Langchain
 llm = OpenAI(

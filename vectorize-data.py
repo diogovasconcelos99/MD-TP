@@ -4,7 +4,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os
 
-API_KEY = "sk-proj-U3Wjl3TJlJUTnl4xgYagT3BlbkFJZeX8P7ySPzbb2UdZHf9s"
+API_KEY = None
 
 # Create OpenAI embedding instance
 embeddings = OpenAIEmbeddings(openai_api_key=API_KEY)
