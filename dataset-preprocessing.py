@@ -38,4 +38,4 @@ df_final["price_range"] = df_final["price_range"].replace(price_mapping)
 df_final.fillna("None", inplace=True)
 
 # Write result to a new CSV file
-df_final.to_csv("datasets/restaurants-with-menus.csv")
+df_final.to_csv("datasets/restaurants-with-menus.csv", index=False)

@@ -13,9 +13,10 @@ Para preparar a base de dados vetorial, seguir os seguinte passos:
 
 2. Correr o script 'dataset-preprocessing.py'
 
-3. Correr o script 'csv-utf8-converter(.*).py'
+3. Correr o script 'csv-utf8-converter.py'
 
-4. Correr o script 'vectorize-data.py'
+4. Correr o script 'vectorize-data.py' \
+Opcional: Se quiser uma base de dados mais pequena, correr o script 'csv-illinois.py' e alterar o nome do csv no ficheiro 'vectorize-data.py'
 
 > Nota: Estes scripts podem ser lentos.
 

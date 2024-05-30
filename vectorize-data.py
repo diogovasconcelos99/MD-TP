@@ -10,7 +10,7 @@ API_KEY = None
 embeddings = OpenAIEmbeddings(openai_api_key=API_KEY)
 
 # Load CSV file
-loader = CSVLoader(file_path='datasets/restaurants-with-menus-utf8-100k.csv', encoding='utf-8')
+loader = CSVLoader(file_path='datasets/restaurants-with-menus-utf8.csv', encoding='utf-8')
 raw_documents = loader.load()
 
 # Split raw file into chunks
