@@ -2,6 +2,8 @@
 
 Desenvolvimento de um chatbot relativo a restaurantes e menus nos Estados Unidos da América, utilizando Python e tecnologia de inteligencia artificial generativa, através de dados obtidos da plataforma Uber Eats.
 
+> Website com os conjuntos de dados de entrada: https://www.kaggle.com/datasets/ahmedshahriarsakib/uber-eats-usa-restaurants-menus?select=restaurants.csv
+
 ---
 
 Membros do grupo:
@@ -14,7 +16,7 @@ Membros do grupo:
 
 Para preparar a base de dados vetorial, seguir os seguinte passos:
 
-1. Fazer download dos datasets no link https://www.kaggle.com/datasets/ahmedshahriarsakib/uber-eats-usa-restaurants-menus?select=restaurants.csv, criar uma pasta denominada de 'datasets' e colocar os 2 CSVs transferidos na pasta
+1. Fazer download dos conjuntos de dados de entrada referidos previamente, criar uma pasta denominada de 'datasets' e colocar os 2 CSVs transferidos na pasta
 
 2. Correr o script 'code/dataset-preprocessing.py'
 
